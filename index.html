@@ -64,54 +64,7 @@
       </nav>
 
 
-    <form action="/submit-form" method="post" enctype="multipart/form-data" class="upload-form">
-
-        <div class="mb-3">
-          <label for="property_name" class="form-label">Your name or Organisation name</label>
-          <input type="text" class="form-control" id="property_name" name="property-name" aria-describedby="property_nameHelp">
-        </div>
-        <div class="mb-3">
-          <label for="phone" class="form-label">Telephone contact</label>
-          <input type="tel" class="form-control" id="phone" name="phone">
-        </div>
-
-        <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" name="email">
-        </div>
-        <div class="mb-3">
-        <label for="proprty_type_select" class="form-label">Property type</label>
-        <select id="property_type_select" name="property-type" class="form-select">
-            <option>Please select how you want to trade the property</option>
-            <option value="Sale">Sale</option>
-            <option value="Rent">Rent</option>
-            <option value="Lease">Lease</option>
-        </select>
-        </div>
-
-        <div class="mb-3">
-            <label for="bedroom" class="form-label">Number of bedrooms</label>
-            <input type="text" class="form-control" id="bedrooms" name="bedrooms">
-        </div>
-
-        <div class="mb-3">
-            <label for="location" class="form-label">Property location</label>
-            <input type="text" class="form-control" id="location" name="location">
-        </div>
-
-        <div class="form-floating" style="margin-bottom: 15px;">
-            <textarea class="form-control" placeholder="Please describe briefly your property" id="description" name="description"></textarea>
-            <label for="description">Please provide a brief description of your property</label>
-          </div>
-        
-          <div class="mb-3">
-            <label for="imageFile" class="form-label">Select property image</label>
-            <input class="form-control form-control-sm" accept=".jpg, .png, .jpeg" 
-            type="file" onchange="trigger(event)" name="imageFile" id="fileInput" multiple>
-          </div>
-
-        <button type="submit" class="btn btn-primary" onclick="handleSubmit()">Submit</button>
-      </form>
+    
     
 </body>
 </html>
