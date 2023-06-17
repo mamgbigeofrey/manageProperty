@@ -29,7 +29,7 @@
 
 /* upload form css goes in here on top of the bootstrap styling */
 .upload-form{
-    width: 60%;
+    width: 50%;
     margin: auto;
     box-shadow:2px solid gray;
     margin-top: 5em;
